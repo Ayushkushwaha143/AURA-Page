@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURA — AI-Powered Automation for Modern Teams</title>
+<meta name="description" content="Automate smarter. Scale faster with intelligent AI. AURA brings predictive automation and real-time insights to modern teams.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#top" class="logo" aria-label="AURA home">
+      <svg class="logo-mark" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M14 2L25 24H19.5L14 12.5L8.5 24H3L14 2Z" fill="url(#logoGrad)"/>
+        <path d="M11 18H17L18.5 21H9.5L11 18Z" fill="url(#logoGrad2)"/>
+        <defs>
+          <linearGradient id="logoGrad" x1="3" y1="2" x2="25" y2="24" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A78BFA"/>
+            <stop offset="1" stop-color="#22D3EE"/>
+          </linearGradient>
+          <linearGradient id="logoGrad2" x1="9.5" y1="18" x2="18.5" y2="21" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A78BFA"/>
+            <stop offset="1" stop-color="#22D3EE"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span class="logo-text">AURA</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#docs">Docs</a>
+      <a href="#login">Login</a>
+    </nav>
+
+    <div class="navbar-actions">
+      <a href="#cta" class="btn btn-primary btn-sm">Start Free Trial</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#docs">Docs</a>
+    <a href="#login">Login</a>
+    <a href="#cta" class="btn btn-primary">Start Free Trial</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-content reveal">
+        <span class="badge">✦ AI POWERED AUTOMATION PLATFORM</span>
+        <h1 class="hero-title">
+          Automate <span class="grad-text">Smarter.</span><br>
+          Scale Faster with<br>
+          <span class="grad-text">Intelligent AI.</span>
+        </h1>
+        <p class="hero-sub">Transform your workflow with predictive automation, real-time insights, and intelligent AI built for modern teams.</p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn btn-primary">Start Free Trial <span aria-hidden="true">→</span></a>
+          <button class="btn btn-ghost" id="watchDemoBtn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7.25" stroke="currentColor" stroke-width="1.5"/><path d="M6.5 5.5L11 8L6.5 10.5V5.5Z" fill="currentColor"/></svg>
+            Watch Demo
+          </button>
+        </div>
+        <p class="hero-footnote">Built for modern sales, marketing, operations and product workflows.</p>
+      </div>
+
+      <!-- HERO DASHBOARD MOCKUP -->
+      <div class="hero-visual reveal">
+        <div class="dashboard-float">
+          <div class="dashboard" role="img" aria-label="Demo AURA workspace dashboard showing revenue analytics and AI insights">
+            <div class="dash-topbar">
+              <span class="dash-label">DEMO WORKSPACE</span>
+              <div class="dash-tabs">
+                <span class="dash-tab active">Overview</span>
+                <span class="dash-tab">Predictions</span>
+                <span class="dash-tab">Activity</span>
+              </div>
+            </div>
+
+            <div class="dash-body">
+              <div class="dash-card dash-card-main">
+                <div class="dash-card-head">
+                  <h3>Revenue Analytics</h3>
+                  <span class="dash-pill">Demo data</span>
+                </div>
+                <svg class="chart" viewBox="0 0 320 120" preserveAspectRatio="none" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.35"/>
+                      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+                    </linearGradient>
+                    <linearGradient id="chartLine" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="0%" stop-color="#A78BFA"/>
+                      <stop offset="100%" stop-color="#22D3EE"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0,95 L40,85 L80,90 L120,60 L160,68 L200,40 L240,48 L280,20 L320,28 L320,120 L0,120 Z" fill="url(#chartFill)"/>
+                  <path d="M0,95 L40,85 L80,90 L120,60 L160,68 L200,40 L240,48 L280,20 L320,28" fill="none" stroke="url(#chartLine)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="chart-line"/>
+                </svg>
+              </div>
+
+              <div class="dash-card">
+                <div class="dash-card-head-sm">AI INSIGHTS</div>
+                <ul class="insight-list">
+                  <li><span class="dot dot-up" aria-hidden="true"></span>Revenue trend is improving</li>
+                  <li><span class="dot dot-mid" aria-hidden="true"></span>3 workflows can be automated</li>
+                  <li><span class="dot dot-priority" aria-hidden="true"></span>Next priority: customer retention</li>
+                </ul>
+              </div>
+
+              <div class="dash-card dash-card-activity">
+                <div class="dash-card-head-sm">Activity</div>
+                <div class="activity-row"><span class="dot dot-up" aria-hidden="true"></span>Workflow "Lead Scoring" completed</div>
+                <div class="activity-row"><span class="dot dot-mid" aria-hidden="true"></span>New prediction generated</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="float-card float-card-1" aria-hidden="true">
+            <span class="float-label">AI Confidence</span>
+            <span class="float-value">92%</span>
+          </div>
+          <div class="float-card float-card-2" aria-hidden="true">
+            <span class="float-label">Workflow efficiency</span>
+            <span class="float-value grad-text">+48%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT SHOWCASE -->
+  <section class="showcase" id="showcase">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="dash-pill">DEMO WORKSPACE</span>
+        <h2>See intelligence in action.</h2>
+        <p>Turn repetitive processes into intelligent workflows and make better decisions with a single AI-powered workspace.</p>
+      </div>
+
+      <div class="product-panel reveal">
+        <aside class="panel-sidebar">
+          <div class="panel-side-logo">AURA</div>
+          <nav class="panel-nav">
+            <span class="panel-nav-item active">Overview</span>
+            <span class="panel-nav-item">Workflows</span>
+            <span class="panel-nav-item">Predictions</span>
+            <span class="panel-nav-item">Analytics</span>
+            <span class="panel-nav-item">Settings</span>
+          </nav>
+        </aside>
+
+        <div class="panel-main">
+          <div class="panel-row">
+            <div class="panel-block panel-block-list">
+              <h4>Workflow List</h4>
+              <div class="workflow-item">
+                <span>Lead Scoring</span>
+                <span class="status status-live">Live</span>
+              </div>
+              <div class="workflow-item">
+                <span>Invoice Routing</span>
+                <span class="status status-live">Live</span>
+              </div>
+              <div class="workflow-item">
+                <span>Churn Alerting</span>
+                <span class="status status-pending">Pending</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" style="width:72%"></div></div>
+              <span class="progress-caption">72% of workflows automated</span>
+            </div>
+
+            <div class="panel-block panel-block-reco">
+              <h4>AI Recommendations</h4>
+              <div class="reco-item">Automate customer onboarding follow-ups</div>
+              <div class="reco-item">Merge duplicate lead sources</div>
+              <div class="reco-item">Prioritize churn-risk accounts</div>
+            </div>
+          </div>
+
+          <div class="panel-row">
+            <div class="panel-block panel-block-chart">
+              <h4>Analytics</h4>
+              <svg class="chart chart-small" viewBox="0 0 280 90" preserveAspectRatio="none" aria-hidden="true">
+                <polyline points="0,70 30,60 60,65 90,45 120,50 150,30 180,38 210,20 240,25 280,10" fill="none" stroke="url(#chartLine)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="panel-block panel-block-task">
+              <h4>Task Activity</h4>
+              <div class="task-row"><span class="status-dot status-dot-green"></span>Report generated</div>
+              <div class="task-row"><span class="status-dot status-dot-purple"></span>3 tasks auto-assigned</div>
+              <div class="task-row"><span class="status-dot status-dot-cyan"></span>Insight synced to team</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Everything your workflow needs. Nothing it doesn't.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <span class="feature-num">01</span>
+          <svg class="feature-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M16 4L27 26H5L16 4Z" stroke="url(#chartLine)" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M16 13V19" stroke="url(#chartLine)" stroke-width="1.8" stroke-linecap="round"/>
+            <circle cx="16" cy="22.5" r="1.2" fill="#22D3EE"/>
+          </svg>
+          <h3>Predictive Automation</h3>
+          <p>Automate repetitive workflows before they become bottlenecks.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-num">02</span>
+          <svg class="feature-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="16" cy="16" r="10.5" stroke="url(#chartLine)" stroke-width="1.8"/>
+            <path d="M16 10V16L20 19" stroke="url(#chartLine)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3>Intelligent Insights</h3>
+          <p>Turn complex information into clear, actionable decisions.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-num">03</span>
+          <svg class="feature-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect x="5" y="6" width="9" height="9" rx="2" stroke="url(#chartLine)" stroke-width="1.8"/>
+            <rect x="18" y="17" width="9" height="9" rx="2" stroke="url(#chartLine)" stroke-width="1.8"/>
+            <path d="M14 10.5H18M18 10.5V17M18 10.5C21 10.5 21 10.5 21 17" stroke="url(#chartLine)" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+          <h3>AI-Powered Workflows</h3>
+          <p>Connect your workflows and let AI handle repetitive busywork.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKFLOW / PROCESS -->
+  <section class="workflow" id="docs">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>From workflow to intelligence in three steps.</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-marker"><span>01</span></div>
+          <h3>Connect</h3>
+          <p>Bring your existing workflows into one intelligent workspace.</p>
+        </div>
+        <div class="step-line" aria-hidden="true"></div>
+        <div class="step reveal">
+          <div class="step-marker"><span>02</span></div>
+          <h3>Automate</h3>
+          <p>Create AI-powered workflows that handle repetitive work.</p>
+        </div>
+        <div class="step-line" aria-hidden="true"></div>
+        <div class="step reveal">
+          <div class="step-marker"><span>03</span></div>
+          <h3>Optimize</h3>
+          <p>Use intelligent insights to continuously improve your processes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI INSIGHT SHOWCASE -->
+  <section class="ai-chat" id="pricing">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>AI that works with your workflow.</h2>
+      </div>
+
+      <div class="chat-panel reveal">
+        <div class="chat-window">
+          <div class="chat-bubble chat-user">
+            <span class="chat-role">USER</span>
+            <p>Summarize this week's workflow activity.</p>
+          </div>
+          <div class="chat-bubble chat-ai">
+            <span class="chat-role">AI</span>
+            <p>Here's what needs your attention:</p>
+            <ol class="chat-list">
+              <li>3 workflows need review</li>
+              <li>Customer retention is the highest priority</li>
+              <li>Two repetitive processes can be automated</li>
+            </ol>
+            <p class="chat-recommend"><strong>Recommended next action:</strong> Review the customer retention workflow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta" id="cta">
+    <div class="cta-glow" aria-hidden="true"></div>
+    <div class="section-inner reveal">
+      <h2>Your workflow deserves an upgrade.</h2>
+      <p>Start automating the work that slows your team down.</p>
+      <a href="#top" class="btn btn-primary btn-lg">Start Free Trial <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" id="login">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <span class="logo-text">AURA</span>
+      <p>Intelligent automation for modern teams.</p>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-col">
+        <span class="footer-col-title">Product</span>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#docs">Docs</a>
+      </div>
+      <div class="footer-col">
+        <span class="footer-col-title">Company</span>
+        <a href="#top">About</a>
+        <a href="#top">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="section-inner footer-bottom">
+    <p>© 2026 AURA. Demo product created for a frontend challenge.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
